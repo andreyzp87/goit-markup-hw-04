@@ -648,16 +648,4 @@ header {
 .portfolio-link {
     display: block;
     color: inherit;
-    transition: var(--icon-transition);
-    transition-property: color;
-}
-
-.portfolio-link:hover,
-.portfolio-link:focus {
-    color: var(--accent-active-color);
-}
-
-.portfolio-link:hover .portfolio-item-header,
-.portfolio-link:focus .portfolio-item-header {
-    color: var(--accent-active-color);
 }
